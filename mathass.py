@@ -3,5 +3,6 @@ p=int(input("Please enter Principal :"))
 r=float(input("Please enter rate of interest :"))
 t=float(input("Please enter time in years :"))
 SI = float((p*r*t)/100)
+a=p+SI
 print(f"The Simple Interet is Rs.{SI:.2f}/-")
-
+print(f"and the total amount to be paid is Rs.{a:.2f}/-")

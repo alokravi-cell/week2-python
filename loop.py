@@ -1,6 +1,6 @@
 #loop excercise
-for i in range(10):
-    if i==2:
-        print("I love you too")
+for i in range(1000000):
+    if i%2==0:
+        print(f"{i+1} I love you too")
     else:
-        print("I love you")
+        print(f"{i+1}I love you")
